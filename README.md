@@ -171,3 +171,9 @@ plt.title('Gambar Tersegmentasi')
 plt.axis('off')
 plt.show()
 ```
+
+## 🌟 Hasil
+
+Setelah menjalankan notebook, Anda akan melihat dua gambar: gambar asli dan gambar yang sudah tersegmentasi. Gambar tersegmentasi akan menampilkan piksel yang dikelompokkan ke dalam klaster berdasarkan warna mereka, menciptakan representasi visual yang berbeda dari gambar asli.
+
+Nikmati eksperimen dengan segmentasi gambar menggunakan K-Means clustering! 🎨🚀
