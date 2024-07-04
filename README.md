@@ -28,20 +28,19 @@ Anda dapat menjalankan kode segmentasi gambar ini di Jupyter Notebook. Berikut p
 
 1. **Mulai Jupyter Notebook:**
 
-   ```shjupyter notebook
+   ```sh
+   jupyter notebook
 
    ```
 
 2. **Buat Notebook Python baru dan tambahkan sel-sel berikut:**
-   ```# Sel 1: Instal OpenCV dan Downgrade NumPy
-   !pip install opencv-python
-   !pip uninstall -y numpy
-   !pip install numpy==1.21
-   ```
-
-# Sel 2: Impor Library dan Verifikasi Versi
 
 ```
+# Sel 1: Instal OpenCV dan Downgrade NumPy
+!pip install opencv-python
+!pip uninstall -y numpy
+!pip install numpy==1.21
+# Sel 2: Impor Library dan Verifikasi Versi
 import numpy as np
 import matplotlib.pyplot as plt
 import cv2
