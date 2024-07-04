@@ -41,6 +41,7 @@ Anda dapat menjalankan kode segmentasi gambar ini di Jupyter Notebook. Berikut p
 
 # Sel 2: Impor Library dan Verifikasi Versi
 
+```
 import numpy as np
 import matplotlib.pyplot as plt
 import cv2
@@ -101,3 +102,4 @@ plt.imshow(segmented_image)
 plt.title('Gambar Tersegmentasi')
 plt.axis('off')
 plt.show()
+```
