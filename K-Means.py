@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import cv2
 
 # Membaca gambar, sesuaikan path dengan lokasi gambar Anda
-image = cv2.imread('F:/My Drive/KULIAH/Semester 4/06. Pengolahan Citra/UAS/images/monarch.jpg') 
+image = cv2.imread('F:/My Drive/KULIAH/Semester 4/06. Pengolahan Citra/UAS/images/image1.jpg') 
 
 # Mengubah warna gambar dari BGR ke RGB
 image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
