@@ -35,7 +35,7 @@ Anda dapat menjalankan kode segmentasi gambar ini di Jupyter Notebook. Berikut p
 
 2. **Buat Notebook Python baru dan tambahkan sel-sel berikut:**
 
-```
+```python
 # Sel 1: Instal OpenCV dan Downgrade NumPy
 !pip install opencv-python
 !pip uninstall -y numpy
