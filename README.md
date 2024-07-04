@@ -115,7 +115,8 @@ Sel ini menginstal library OpenCV (cv2) dan downgrade NumPy ke versi 1.21 untuk 
 
 Pada sel ini, kami mengimpor library yang diperlukan: NumPy, Matplotlib, dan OpenCV. Kami juga mencetak versi NumPy dan OpenCV untuk memastikan instalasi berhasil.
 
-```import numpy as np
+```python
+import numpy as np
 import matplotlib.pyplot as plt
 import cv2
 print(f"Versi NumPy: {np.__version__}")
@@ -126,7 +127,8 @@ print(f"Versi OpenCV: {cv2.__version__}")
 
 Sel ini membaca sebuah gambar dari path yang ditentukan dan mengubah warna gambar dari BGR ke RGB. Kemudian, gambar asli ditampilkan menggunakan Matplotlib.
 
-```# Membaca gambar, sesuaikan path dengan lokasi gambar Anda
+```python
+# Membaca gambar, sesuaikan path dengan lokasi gambar Anda
 image = cv2.imread('images/monarch.jpg')
 
 # Ubah warna gambar dari BGR ke RGB
@@ -143,7 +145,8 @@ plt.show()
 
 Sel ini melakukan segmentasi gambar menggunakan algoritme K-Means clustering. Gambar diubah menjadi array piksel 2D dengan 3 nilai warna (RGB), kemudian dikonversi ke float32. Hasil segmentasi ditampilkan sebagai gambar tersegmentasi.
 
-```# Ubah gambar menjadi array piksel 2D dengan 3 nilai warna (RGB)
+```python
+# Ubah gambar menjadi array piksel 2D dengan 3 nilai warna (RGB)
 pixel_vals = image.reshape((-1,3))
 
 # Konversi tipe data menjadi float32
