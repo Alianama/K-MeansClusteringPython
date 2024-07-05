@@ -7,11 +7,13 @@ Selamat datang di proyek Segmentasi Gambar menggunakan K-Means Clustering! Proye
 hasil dari project ini adalah adanya perbedaan antara gambar asli dan gambar yang sudah di klastering untuk kasus ini saya membagi jadi 3 warna klaastering / cluster
 dan hasil dari itu gambar hasil yang ditampilkan berupa gambar yang hanya ada 3 warna dominan didalamnya seperti pada gambar dibawah ini
 
-Gambar Asli
+### Gambar Asli
+
 ![Gambar Asli](images/monarch.jpg)
-<br></br>
-Gambar Setelah di Segmentasi
-![Gambar Tersegmentasi](images/output.png){ width="50%" }
+
+### Gambar Setelah di Segmentasi
+
+![Gambar Tersegmentasi](images/output.png)
 
 ## 🛠️ Instalasi
 
