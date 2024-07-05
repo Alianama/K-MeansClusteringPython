@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hasil Pengenalan Warna</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              1: "#50B498",
+              2: "#468585",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      .color-box {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body class="flex w-full font-mono items-center flex-col py-10 px-10 gap-5">
+    <h1>Hasil Pengenalan Warna</h1>
+    <div
+      class="flex w-full justify-between items-center bg-1 text-white p-10 rounded-xl flex-wrap"
+    >
+      {% for color, percentage in zip(colors, percentages) %}
+      <div class="flex justify-center items-center">
+        <div
+          class="color-box border-2 border-white rounded-full"
+          style="background-color: rgb({{ color[0] }}, {{ color[1] }}, {{ color[2] }});"
+        ></div>
+        <p>
+          Warna: RGB({{ color[0] }}, {{ color[1] }}, {{ color[2] }}) - {{
+          percentage|round(2) }}%
+        </p>
+      </div>
+      {% endfor %}
+    </div>
+    <h2>Gambar Setelah Klastering</h2>
+    <div class="flex w-full justify-center items-center">
+      <img
+        class="flex w-1/2"
+        src="{{ url_for('static', filename='segmented/' ~ segmented_image_filename) }}"
+        alt="Gambar Setelah Klastering"
+      /><br /><br />
+    </div>
+    <a
+      class="bg-2 rounded-2xl text-white p-5 hover:bg-1 shadow-2xl hover:scale-105 transition-all ease-in hover:transition-all ease-in"
+      href="/"
+      >Unggah Gambar Lain</a
+    >
+  </body>
+</html>
