@@ -9,11 +9,11 @@ dan hasil dari itu gambar hasil yang ditampilkan berupa gambar yang hanya ada 3 
 
 ### Gambar Asli
 
-![Gambar Asli](images/monarch.jpg)
+![Gambar Asli](images/iamge2.jpg)
 
 ### Gambar Setelah di Segmentasi
 
-![Gambar Tersegmentasi](images/output.png)
+![Gambar Tersegmentasi](images/output2.png)
 
 ## 🛠️ Instalasi
 
