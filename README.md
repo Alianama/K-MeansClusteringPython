@@ -10,7 +10,7 @@ dan hasil dari itu gambar hasil yang ditampilkan berupa gambar yang hanya ada 3 
 Gambar Asli
 ![Gambar Asli](images/monarch.jpg)
 Gambar Setelah di Segmentasi
-![Gambar Tersegmentasi](images/image1.jpg){ width="50%" }
+![Gambar Tersegmentasi](images/output.png){ width="50%" }
 
 ## 🛠️ Instalasi
 
