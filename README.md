@@ -9,7 +9,7 @@ dan hasil dari itu gambar hasil yang ditampilkan berupa gambar yang hanya ada 3 
 
 ### Gambar Asli
 
-![Gambar Asli](images/image2.jpeg)
+![Gambar Asli](images/image.jpeg)
 
 ### Gambar Setelah di Segmentasi
 
