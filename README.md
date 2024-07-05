@@ -9,7 +9,7 @@ dan hasil dari itu gambar hasil yang ditampilkan berupa gambar yang hanya ada 3 
 
 Gambar Asli
 ![Gambar Asli](images/monarch.jpg)
-<br>
+<br></br>
 Gambar Setelah di Segmentasi
 ![Gambar Tersegmentasi](images/output.png){ width="50%" }
 
